@@ -461,20 +461,22 @@ textarea.input-field {
     max-width: 540px;
     width: 100%;
     margin-inline: auto;
+    font-size: 20px;
   }
 
   .header.container {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .navbar-list {
     grid-area: 20px;
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .contact-card {
     padding: 68px;
   }
+
 
   .footer-inner-container {
     padding: 68px;
@@ -492,6 +494,7 @@ textarea.input-field {
 
   .about .grid-list {
     grid-template-columns: 1fr 1fr;
+    
   }
 
   .project .title-wrapper {
