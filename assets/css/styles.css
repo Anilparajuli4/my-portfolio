@@ -465,12 +465,12 @@ textarea.input-field {
   }
 
   .header.container {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .navbar-list {
     grid-area: 20px;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .contact-card {
